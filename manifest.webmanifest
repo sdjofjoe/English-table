@@ -1,0 +1,14 @@
+{
+  "name": "六级监督 · 70天",
+  "short_name": "六级监督",
+  "description": "70天六级备考：计划、照片打卡、AI单词识别、三天抽查、数据统计",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F6F5FB",
+  "theme_color": "#534AB7",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>六级手账 · 70天</title>
+<meta name="theme-color" content="#2F5D50">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/style.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">6</span>
+      <span class="brand-name">六级手账</span>
+      <span class="brand-sub" id="brandDay"></span>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button data-page="today" class="active">今日</button>
+      <button data-page="checkin">打卡</button>
+      <button data-page="words">单词库</button>
+      <button data-page="quiz">抽查</button>
+      <button data-page="stats">统计</button>
+      <button data-page="settings">设置</button>
+    </nav>
+  </header>
+  <main id="page"></main>
+  <footer class="foot">数据仅保存在本机浏览器 · 记得偶尔去「设置」导出备份</footer>
+</div>
+<div id="toast" class="toast"></div>
+<script src="js/main.js" type="module"></script>
+</body>
+</html>
